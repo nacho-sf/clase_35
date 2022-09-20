@@ -6,12 +6,18 @@
     padding: 15px;
     background-color: $granate;
 
-    &>a {
+    &>* {
         color: white;
+    }
+    
+    &>a {
         text-decoration: none;
 
         &:hover {
             color: $pale-orange;
         }
+    }
+    &>span {
+        font-weight: bold;
     }
 }

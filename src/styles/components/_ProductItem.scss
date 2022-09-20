@@ -3,3 +3,7 @@
 .product-item {
     @include column-centered-content;
 }
+
+.image_item {
+    width:500px
+}
