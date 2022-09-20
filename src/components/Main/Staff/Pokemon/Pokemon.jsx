@@ -5,7 +5,7 @@ class Pokemon extends Component {
   render() {
     const {name,url} = this.props.data;
 
-    return <article key={name} >
+    return <article>
     <a href={url} alt={name + 'image'}> {name} </a>
     <p>{url}</p>
   </article>
