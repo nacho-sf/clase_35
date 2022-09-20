@@ -1,0 +1,13 @@
+@import '../utils/mixins.scss';
+
+.product-list {
+    @include column-centered-content;
+
+    &>form {
+        @include column-centered-content;
+
+        &>label {
+            margin: 5px;
+        }
+    }
+}

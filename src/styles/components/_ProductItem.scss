@@ -1,0 +1,5 @@
+@import '../utils/mixins.scss';
+
+.product-item {
+    @include column-centered-content;
+}
